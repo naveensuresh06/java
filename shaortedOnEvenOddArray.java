@@ -19,5 +19,5 @@ public class shaortedOnEvenOddArray {
         System.out.println(s);
         System.out.println(s2);
     }
-    
+       
 }
