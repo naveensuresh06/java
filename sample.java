@@ -5,8 +5,8 @@ public class sample {
         //  byte j=i;
         //  System.out.println(j);
         long k=i;
-        long m=1;
-        System.out.println(k);
+        long m=0;
+        System.out.println(m);
     }
     
 }
