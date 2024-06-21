@@ -30,7 +30,7 @@ class Manager extends employee{
    double getbonus(){return bonus;}
    double getSalary(){
     return super.getSalary()+bonus;
-   }
+   }String getName(){return name;}
 
 }
 class Hr extends Manager{
@@ -50,6 +50,7 @@ public class inheritance {
         System.out.println(m1.getSalary());
         Hr h1=new Hr("naveen",100000,40000,"doll");
         System.out.println(h1.getSalary());
+        System.out.println(m1.getName());
     }
     
 }
