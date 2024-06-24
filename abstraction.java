@@ -6,6 +6,7 @@ class square extends shape{
     void typeofshape(){
         System.out.println("square is the shape");
     }
+    
 }
 class triangle extends shape{
     void typeofshape(){

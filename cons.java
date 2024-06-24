@@ -1,5 +1,5 @@
 class A{
-    int i;
+    int i=0;
     A(){
         System.out.println("A");
     }

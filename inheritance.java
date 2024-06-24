@@ -10,8 +10,11 @@ class employee{
     //     name=" ";
     //     salary=0.0;
     // }
-    String getName(){return name;}
-    void setName(String n){name=n;}
+    String getName(){
+      
+         return name;}
+    void setName(String n){
+        name=n;}
     double getSalary(){return salary;}
     void setSalary(double s){salary=s;}
     void raiseSalary(double percent){
